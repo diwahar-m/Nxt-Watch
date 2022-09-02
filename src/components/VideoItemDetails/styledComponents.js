@@ -12,6 +12,7 @@ export const Con1 = styled.div`
   background-color: ${props => (props.darker ? '#0f0f0f' : '#f9f9f9')};
   justify-content: flex-start;
 `
+
 export const Line = styled.hr`
   border-color: #616e7c;
   border-width: 1px;
@@ -22,6 +23,12 @@ export const Con37 = styled.div`
 
   justify-content: flex-start;
 `
+export const Con38 = styled.div`
+  display: flex;
+
+  justify-content: flex-start;
+`
+
 export const Left = styled.div`
   display: none;
   @media screen and (min-width: 768px) {
@@ -36,13 +43,13 @@ export const Left = styled.div`
 export const Button3 = styled.button`
   background-color: transparent;
   border-width: 0px;
-  color:${props => (props.outline ? ' #2563eb' : '#64748b')}
+
   margin-left: 10px;
 `
 export const Button4 = styled.button`
   background-color: transparent;
   border-width: 0px;
-  color:${props => (props.outline ? ' #2563eb' : '#64748b')}
+
   margin-left: 10px;
 `
 export const Button5 = styled.button`
@@ -80,6 +87,14 @@ export const Head1 = styled.h1`
   padding-bottom: 4px;
   padding-top: 0px;
 `
+export const Para99 = styled.p`
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 170px;
+  padding-bottom: 4px;
+  padding-top: 0px;
+`
+
 export const RowImage = styled.img`
   height: 25px;
   width: 25px;
@@ -133,7 +148,13 @@ export const Con62 = styled.div`
 `
 export const Para61 = styled.p`
   font-size: 14px;
+  color: ${props => (props.outline ? ' #2563eb' : '#64748b')};
 `
+export const Para62 = styled.p`
+  font-size: 14px;
+  color: ${props => (props.outline ? ' #2563eb' : '#64748b')};
+`
+
 export const Con7 = styled.div`
   display: flex;
   flex-direction: row;
@@ -153,4 +174,24 @@ export const LoaderContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+`
+
+export const FailureCon = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`
+export const FailureHead = styled.h1`
+  color: #ffffff;
+  font-weight: bold;
+`
+
+export const FailurePara = styled.p`
+  color: #475569;
+  font-size: 12px;
+`
+export const FailureButton = styled.button`
+  color: #475569;
+  font-size: 12px;
 `

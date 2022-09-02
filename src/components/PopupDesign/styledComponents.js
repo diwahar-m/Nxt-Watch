@@ -21,7 +21,7 @@ export const Con2 = styled.div`
   display: flex;
   border-radius: 10px;
 `
-export const Para = styled.div`
+export const Para = styled.p`
   margin: 10px;
   font-size: 16px;
   font-weight: bold;

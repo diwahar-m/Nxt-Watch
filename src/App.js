@@ -53,7 +53,7 @@ class App extends Component {
           <ProtectedRoute exact path="/saved-videos" component={SavedVideos} />
           <ProtectedRoute
             exact
-            path="/video/:id"
+            path="/videos/:id"
             component={VideoItemDetails}
           />
           <Route exact path="/not-found" component={NotFound} />

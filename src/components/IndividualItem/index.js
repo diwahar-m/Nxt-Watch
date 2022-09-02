@@ -30,7 +30,7 @@ const IndividualItem = props => {
 
         return (
           <Con id={id}>
-            <Link to={`/video/${id}`}>
+            <Link to={`/videos/${id}`}>
               <Image1 src={thumbnailUrl} alt="video thumbnail" />
               <Con1>
                 <Image2 src={profileImageUrl} alt="channel logo" />

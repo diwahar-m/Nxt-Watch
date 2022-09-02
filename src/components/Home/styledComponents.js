@@ -17,7 +17,7 @@ export const Cons = styled.div`
 `
 export const Con1 = styled.div`
   display: flex;
-
+  background-color: ${props => (props.darker ? '#181818' : '#f9f9f9')};
   justify-content: flex-start;
   align-items: flex-start;
   height: 95vh;

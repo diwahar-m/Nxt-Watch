@@ -6,7 +6,7 @@ const TrendingItem = props => {
   const {id, title, thumbnailUrl, channelName, publishedAt, viewCount} = details
 
   return (
-    <Link to={`/video/${id}`}>
+    <Link to={`/videos/${id}`}>
       <Con id={id}>
         <Con2>
           <Image1 src={thumbnailUrl} alt="video thumbnail" />

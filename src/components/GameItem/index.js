@@ -13,7 +13,7 @@ const GameItem = props => {
 
   return (
     <Con id={id}>
-      <Link to={`/video/${id}`}>
+      <Link to={`/videos/${id}`}>
         <Con1>
           <Image1 src={thumbnailUrl} alt="video thumbnail" />
           <Para1>{title}</Para1>

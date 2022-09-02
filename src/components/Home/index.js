@@ -140,7 +140,7 @@ class Home extends Component {
         />
         <ConHead>No Search results found</ConHead>
         <ConPara>Try different key words or remove search filter</ConPara>
-        <ConButton>Retry</ConButton>
+        <ConButton onClick={this.retrying}>Retry</ConButton>
       </Container>
     )
   }
@@ -182,7 +182,7 @@ class Home extends Component {
                 <Headers />
               </Cons>
 
-              <Con1 data-testid="home">
+              <Con1 data-testid="home" darker={dark}>
                 <Left darker={dark}>
                   <Cover1>
                     <Link to="/">
